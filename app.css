@@ -1,0 +1,67 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-style: normal;
+
+}
+
+.login-box {
+    
+    font-family: Barlow;
+    font-style: normal;
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #0099FF;
+}
+.bar {
+    position: absolute;
+    width: 100%;
+    background: #0099FF;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.login-box h1 {
+    float: none;
+    font-weight: 600;
+    line-height: 100%;
+    font-size: 40px;
+    padding: 52px;
+}
+
+.login-box h4 {
+    float: none;
+    font-size: 20px;
+    color: #999999;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 22px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    background-color: #F3F3F3;
+    border-radius: 1.5px;
+}
+
+.btn {
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 0rem;
+    width: 6rem;
+    height: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #0099FF;
+    border-radius: 60px;
+  }
+  

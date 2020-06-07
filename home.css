@@ -1,0 +1,175 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Barlow;
+    font-style: normal;
+    overflow: scroll;
+}
+
+.bar {
+    position: absolute;
+    width: 100%;
+    background: #0099FF;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+
+.home {
+    font-family: Barlow;
+    font-style: normal;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-300%);
+    height: 70px;
+    margin-top: 7px;
+}
+
+ .btn {
+     float: none;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    margin-top: 5rem;
+    width: 10rem;
+    height: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%,-75%);
+    color: #0099FF;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .btn1 {
+    float: none;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    margin-top: 5rem;
+    width: 10rem;
+    height: 3rem;
+    margin-right: 10rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(80%,-75%);
+    color: #0099FF;
+    background-color: transparent;
+    border: 0px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .box{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    width: 10rem;
+    height: 24rem;
+    background: transparent;
+  }
+
+  .box-row{
+    position: absolute;
+    width: 256px;
+    height: 24rem;
+    left: 60px;
+    top: 284px;
+    background: #F3F3F3;    
+    border-radius: 8px;
+  }
+
+  .box-row h1{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    padding: 1rem;
+    line-height: 95%;
+    color: #0099FF;
+  }
+  .box-row h4{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 24px;
+    line-height: 95%;
+    color: #666666;
+  }
+
+  .text{
+    position: absolute;
+    padding: 1rem;
+    padding-top: 0rem;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 95%;
+    color: #666666;
+  }
+
+  .recording-contianer{
+    position: absolute;
+    width: 100%;
+    height: 1024px;
+    left: 0px;
+    top: 800px;
+    background: #F3F3F3;
+  }
+
+  .recording-contianer h1{
+    position: absolute;
+    width: 6rem;
+    padding: 1.5rem;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 95%;
+  }
+
+  .recording-container-coulmn{
+    position: absolute;
+    width: 90%;
+    align-self: center;
+    height: 120px;
+    display: flex;
+    left: 60px;
+    top: 100px;
+    background-color: #FFFFFF;
+  }
+
+  .btn2 {
+    width:3rem;
+    background-color: #0099FF;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    height: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-175%,-175%);
+    border: 0px;
+  }
+
+  .sub-text{
+      padding-top: 4rem;
+      padding-left: 2rem;
+      margin: 0.5rem;
+    }
