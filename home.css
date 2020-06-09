@@ -8,31 +8,18 @@ body {
     overflow: scroll;
 }
 
-.bar {
-    position: absolute;
-    width: 100%;
+.navbar {
     background: #0099FF;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    right: 0px;
+    width: 100%;
 }
 
-.home {
+.hello h1{
     font-family: Barlow;
     font-style: normal;
-    position: absolute;
-    display: flex;
-    width: 100%;
-    padding: 3rem;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-300%);
-    height: 70px;
-    margin-top: 7px;
+    margin-left: 7rem;
 }
 
- .btn {
+ /* .btn {
      float: none;
     font-family: Barlow;
     font-style: normal;
@@ -48,9 +35,15 @@ body {
     color: #0099FF;
     text-align: center;
     margin-bottom: 1rem;
+  } */
+
+  .btn{
+    margin-top: 6.5rem;
+    margin-right: 4rem;
+    color: #0099FF;
   }
 
-  .btn1 {
+  /* .btn1 {
     float: none;
     font-family: Barlow;
     font-style: normal;
@@ -69,9 +62,15 @@ body {
     border: 0px;
     text-align: center;
     margin-bottom: 1rem;
-  }
+  } */
 
-  .box{
+  /* .btn1{
+    color: #0099FF;
+    background-color: transparent;
+    border: transparent;
+  } */
+
+  /* .box{
     width: 100%;
     position: absolute;
     top: 0%;
@@ -80,14 +79,13 @@ body {
     width: 10rem;
     height: 24rem;
     background: transparent;
-  }
+  } */
 
   .box-row{
-    position: absolute;
-    width: 256px;
-    height: 24rem;
-    left: 60px;
-    top: 284px;
+    width: 240px;
+    height: 30rem;
+    margin-left: 8rem;
+    margin-top: 4rem;
     background: #F3F3F3;    
     border-radius: 8px;
   }
@@ -101,6 +99,7 @@ body {
     line-height: 95%;
     color: #0099FF;
   }
+
   .box-row h4{
     font-family: Lato;
     font-style: normal;
@@ -123,53 +122,37 @@ body {
     color: #666666;
   }
 
-  .recording-contianer{
-    position: absolute;
+  .recording{
+    margin-top: 2rem;
+    padding-left: 2rem;
     width: 100%;
     height: 1024px;
-    left: 0px;
-    top: 800px;
     background: #F3F3F3;
   }
 
-  .recording-contianer h1{
-    position: absolute;
-    width: 6rem;
-    padding: 1.5rem;
+  .small-heading{
     font-family: Barlow;
     font-style: normal;
+    padding-left: 3rem;
     font-weight: 600;
     font-size: 36px;
     line-height: 95%;
   }
 
-  .recording-container-coulmn{
-    position: absolute;
+  .sub-recording{
     width: 90%;
-    align-self: center;
-    height: 120px;
-    display: flex;
-    left: 60px;
-    top: 100px;
+    height: 75px;
     background-color: #FFFFFF;
   }
 
-  .btn2 {
-    width:3rem;
-    background-color: #0099FF;
-    padding: 2rem;
-    margin-top: 5rem;
-    margin-right: 2rem;
-    height: 3rem;
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-175%,-175%);
-    border: 0px;
+  .btn1{
+    margin-top:1rem;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 20px 0 20px 40px;
+    border-color: transparent transparent transparent #007bff;
   }
 
   .sub-text{
-      padding-top: 4rem;
-      padding-left: 2rem;
-      margin: 0.5rem;
+      padding-left: 5rem;
     }

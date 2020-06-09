@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="bar"> </div>
-    <div class="home">
-        <h1>Hello,<br>Lokap Sahu</h1>
-        <input class="btn" type = "button" value="PRACTICE">
-        <input class="btn1" type = "button" value="LEARN">
+    <div class="navbar"></div>
+    <div class="row inline">
+        <div class="container col-sm-4 hello">
+            <h1>Hello,<br>Lokap Sahu</h1>
+        </div>
+        <div class="col-sm-8">
+            <button class="btn pull-right" type="button">PRACTICE</button> 
+            <button class="btn pull-right" type="button">LEARN</button>
+        </div>
     </div>
-    <div class="box"> 
-        <div class="box-row"> 
+    <div class="row"> 
+        <div class="box-row col-sm-4"> 
             <h1>8.6</h1>
             <h4>Fluency</h4>
             <p class="text">
@@ -22,12 +33,12 @@
             </p>
         </div>
     </div> 
-    <div class="recording-contianer">
+    <div class="recording">
         <h1>Recordings</h1>
-        <div class="recording-container-coulmn">
-                <h1>Introduction</h1>
-                <p class="sub-text">Description regarding the recordings and introduction</p>
-                <input class='btn2' type="button">
+        <div class="coulmn sub-recording">
+            <button class='btn1 pull-right' type="button"></button>
+            <p class="small-heading">Introduction</p>
+            <p class="sub-text">Description regarding the recordings and introduction</p>
         </div>
     </div>
 </body>
