@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     display: grid;
     width: 100%;
+    height: 100%;
     place-items: center;
   }
 .clock{
@@ -13,8 +14,10 @@ body {
 }
 
 .container{
-    padding-top: 7rem;
+    padding-top: 20px;
     width: 100%;
+    height: fit-content;
+    font-size: 20px;
 }
 .navbar{
     background: #0099FF;
@@ -69,16 +72,21 @@ body {
     top: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
     font-size: 76px;
   }
+
+  .format{
+    align-items: center;
+  }
+
   .fixed-bottom{
     background: rgba(0, 0, 0, 0.4);
-    position: fixed;
+    position: relative;
     left: 0;
+    top: 115px;
     bottom: 0;
-    width: 100%;
-    height: 10rem;
+    height: 11rem;
     text-align: center;
     width: 100%;
   }
@@ -94,6 +102,25 @@ body {
     outline: transparent;
     display: inline-block;
   }
+
+  /* .play{
+
+  } */
+
+  .paused{
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    border-width: 45px;
+    margin-left: 50px;
+    background-color: transparent;
+    border-color: rgb(241, 13, 13);
+    border-radius: 0%;
+    border-style: double;
+    outline: transparent;
+    border-width: 0px 0px 0px 37px;
+  }
+
   .arrow{
     background: transparent;
     border: transparent;
