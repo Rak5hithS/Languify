@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body ng-app style="background-color: rgb(224, 221, 221);">
+    <nav class="navbar">
+        <div class="navbar-header">
+            <h1>Languify.in</h1>
+            <button class="sign-up button">Signup</button> 
+            <button class="back button">&#60; Back</button>
+        </div>
+    </nav>
+        <div ng-app class="login">
+            <h2>Login</h2>
+            <p>Please porvide the below details</p>
+            <form class="needs-validation" ng-submit="submitStudnetForm()" role="form" name="studentForm" novalidate>
+                <div class="input-group" ng-class="{'has-error': studentForm.emailId.$touched && studentForm.emailId.$error.email , 'has-success': studentForm.emailId.$valid}">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <input placeholder="Email" type="email" id="dob" name="emailId" class="form-control" ng-model="email" required>
+                </div>
+                <div>
+                    <span class="help-block" ng-show="studentForm.emailId.$touched && studentForm.emailId.$error.email">Please enter valid email.</span>
+                </div>
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                  <input id="password" type="password" class="form-control" name="password" placeholder="Password" required>
+                </div>
+                <p style="padding-top: 8px; ">*Use mobile number as password.</p>
+                <button class="log-in button pull-right" type="submit">Login</button>
+            </form>
+           
+        </div>
+</body>
+</html>
